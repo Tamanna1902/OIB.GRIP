@@ -1,0 +1,270 @@
+*{
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 85px;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index:99;
+}
+.logo{
+    margin: 19px 265px 0px 30px;
+}
+.menu1{
+    text-decoration: none;
+   list-style: none;
+   display: flex;
+   margin-top: 34px;
+}
+.link {
+    margin: 10px;  
+    margin-right: 50px;
+    color: rgb(255, 255, 255);
+  text-decoration: none; 
+ text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 1px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    }
+.navbar {
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+    }
+.menu ul li:hover{
+    opacity: .5;
+}
+.buy{
+    margin-left: 91px;
+}
+.buy a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100px;
+     height: 90px;
+     float: left;
+     border-left: 2px solid rgba(255, 255, 255, 0.541);
+     line-height: 100px;
+     text-align: center;
+      transition: all ease 0.5s;
+ }
+ .buy a:hover{
+    background-color: #fc3c2e;
+    box-shadow: -5px 10px 40px #fc3c2e;
+    color: #fff;
+}
+.banner{
+    height:100vh;
+}
+.text{
+    position: relative;
+    width: 55%;
+    height: 100%;
+    float: left;
+    background-color: #d24036;
+    display: flex;
+    align-items: center;
+    clip-path: polygon(0 0,40% 0,100% 100%,0 100%);
+}
+.text h1{
+    font-size: 90px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 90px;
+}
+.textinner{
+    margin-left: 20px;
+    margin-top: 90px;
+    padding: 20px;
+}
+.quote{
+         font-size: 60px;
+         color: #fff;
+}
+.qoute1{
+    color: #fff;
+    line-height: 28px;
+    padding: 20px 240px 0 0;
+    justify-content: center;
+    font-size: 20px;
+}
+.text a{
+    display: inline-block;
+    background-color: rgba(63, 22, 22);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+        line-height: 60px;
+    border-radius: 50px;
+     letter-spacing: 1px;
+    text-align: center;
+        margin-top: 30px;
+    }
+.text a:hover{
+        background-color: #fff;
+        color: rgba(63, 22, 22);
+ }
+.img1{
+        position: relative;
+
+        display: flex;
+        flex-direction: row;
+    }
+.slipper{
+    position: relative;
+  margin-top: 170px;
+   border-radius: 100%;
+z-index: 1;
+}
+.slipper1{
+    position: absolute;
+    margin-top: 120px;
+    right: 47px; 
+    border-radius: 100%;
+}
+.slipper2{
+    position: absolute;
+    margin-top: 479px;
+right: 235px; 
+    border-radius: 100%;
+}
+.section1{
+    background-color: rgba(63, 22, 22);
+    height: 90vh ; 
+    padding: 2rem; padding-top: 6rem;
+   display: flex; align-items: center; justify-content: center; flex-direction: column;
+   flex-wrap: wrap; 
+   border: 2px solid rgb(2, 2, 2);
+}
+.section1 .image img{
+       text-align: center; padding: 4rem 0;
+    height: 80vh;
+}
+.section1 .definition{
+    width: 85vh; height:60vh; padding: 2rem;
+    padding-bottom: 4rem;
+     border: 4px #fc3c2e solid;
+    box-shadow: -5px 10px 40px #fc3c2e;
+    border-radius: 20px;
+}
+.section1 .definition h3{
+    font-size: 3rem;
+    color: rgb(252, 174, 174);
+}
+.heading{
+   padding: .5rem ;font-size: 2rem;
+    color: #d24036;
+   display: inline-block;
+    margin: 1rem 0px;
+}
+ .definition p{
+    font-size: 1.4rem;
+    color: rgba(255, 251, 251, 0.952);
+    padding: 1rem 0;
+   display: flex;
+   align-items: center; text-align: start; 
+}
+.definition ul, .definition li{
+    text-decoration: none;
+   list-style:circle;
+   font-size: 1.3rem;
+   color: rgb(255, 191, 191);
+}
+.card1 img{
+    margin: 10px;
+}
+.card1{
+height: 380px;
+width: 245px;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+border-radius: 10px;
+border: 3px solid rgb(71, 71, 71);
+margin: 15px 23px 0px 23px;
+font-size: 1.1rem;
+}
+.section2{
+    padding: 5rem ;
+    background-color: #f8b7a7dc;
+    height: 100vh ; 
+}
+.heading1{
+    color: #d24036;
+    padding: 2rem; font-size: 2rem;
+    text-align: center;
+}
+.containerslidder{
+    overflow-x: scroll;
+    display: flex; 
+    margin-left: 20px;
+  flex-direction: row;
+}
+.card1 .price{
+    display: flex;  flex-direction: column; align-items: center; justify-content: center;
+}
+.card1 .btn{
+    background-color: #d24036;
+    height: 4rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    margin: 10px 0px 10px 0px;
+}
+.card1 .btn:hover{
+    box-shadow: 5px 10px 18px #f57272;
+}
+.section3{
+    min-height: 85vh;
+    padding-top: 20vh;
+  background: linear-gradient(rgba(255, 132, 132, 0.7),rgba(255, 132, 132, 0.7)),url('pictures/boots.png') no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    text-align: center;
+}
+.section3 .title,.heading{
+ color: rgb(73, 56, 56);
+}
+.section3 form{
+    width: 85%; margin: 0.9rem auto;
+}
+.section3 form .inputbox{
+    display: flex; justify-content: space-between; flex-wrap: wrap;
+}
+ form .inputbox input, textarea{
+    height: 4rem; width: 49%; 
+    padding: 0 1rem; 
+   margin: 1rem 0;
+ font-size: 1.6rem;
+ background: none;
+   border: 0.2rem solid rgb(73, 56, 56); 
+   text-transform: none; color: rgb(66, 61, 61);
+}
+form .inputbox input, textarea::placeholder{
+    color: rgb(80, 61, 61);
+}
+.section3 form textarea{
+    width: 100%; height: 13rem;
+}
+.section3 .btn{
+    background-color: rgb(73, 56, 56); color: white; height: 3rem;
+    width: 14rem; font-size: 1.5rem; border: 0px; border-radius: 6px;
+}
+.section3 .btn:hover{
+    background-color: white; color: rgb(73, 56, 56);
+}
