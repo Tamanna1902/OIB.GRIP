@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <div class="subsemain">
+        <h1>Temperature Converter</h1>
+        <div class="main">
+            <div class="right">
+                <h2>Celcius to Fahrenheit.</h2>
+                <p>
+                    <label>Celcius</label>
+                    <input id="inputKG" type="number" placeholder="Celcius" oninput="CtoFConverter(this.value)"
+                        onchange="CtoFConverter(this.value)">
+                </p>
+                <p class="para">Fahrenheit: <span class="fahrenheit"></span></p>
+            </div>
+            <div class="left">
+                <h2>Fahrenheit to Celcius.</h2>
+                <label>Fahrenheit</label>
+                <input id="inputKG1" type="number" placeholder="Fahrenheit" oninput="FtoCConverter(this.value)"
+                    onchange="FtoCConverter(this.value)">
+                </p>
+                <p class="para"> Celcius: <span class="Celcius"></span></p>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        function CtoFConverter(temp) {
+            document.querySelector(".fahrenheit").innerHTML = (temp * 9 / 5) + 32;
+        }
+        function FtoCConverter(temp) {
+            document.querySelector(".Celcius").innerHTML = (temp - 32) * 5 / 9;//
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+*{
+    font-family: 'Rowdies', cursive;
+}
+.subsemain{
+    background-color: #260C1A;  height: 70vh; border-radius: 20px;  width: 53%;     margin: auto;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input,
+span {
+    font-size: 20px; padding: 5px;
+}
+.subsemain h1{
+    margin-left: 179px;
+        color: #EDBFC6;
+        margin-top: 70px;
+        padding-top: 30px;
+        font-size: 2.5rem;
+}
+.main{
+    display: flex; margin-top: 55px; flex-direction: row
+}
+.right{
+    margin-left: 68px;
+            margin-right: 87px;
+            color: #EDBFC6;
+}
+.main h2{
+     font-size: 1.5rem
+}
+.right label,.left label{
+     font-weight: 700;font-size: 1.5rem;
+}
+.left{
+    color: #EDBFC6;
+}
+.para{
+    font-weight: 800; font-size: medium;
+}
